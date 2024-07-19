@@ -1,0 +1,58 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color: rgb(29, 13, 13);
+}
+p,h3{
+    color: white;
+
+}
+.b1{
+    color: aqua;
+}
+h3{
+    background-color: yellowgreen ;
+}
+.main,.sample{
+    height: 500px;
+    width: 400px;
+    color: rgb(238, 2, 2);
+    
+}
+.main{
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: bisque;
+}
+.sample{
+    background-color: beige;
+}
+.main1{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(46, 168, 168);
+    position: relative;
+}
+.sub{
+    position: absolute;
+    width: 250;
+    height: 250;
+    top: 50px;
+    right: 50px;
+    background-color: rgb(13, 216, 223);
+}
+.sub2{
+    position: absolute;
+    width: 250;
+    height: 250;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(185, 22, 172);
+}
+
+
