@@ -1,0 +1,26 @@
+.main{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 15%;
+    position: relative;
+}
+.main1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.main2{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: red;
+}

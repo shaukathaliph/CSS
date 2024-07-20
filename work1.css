@@ -1,0 +1,27 @@
+.style{
+    background-color: red;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 15%;
+
+}
+.sub{
+    position: absolute;
+    background-color: green;
+    height: 200px;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 20%;
+    
+}
+.sub1{
+    position: absolute;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin-left: 32%;
+    margin-top: 16%;
+
+}
