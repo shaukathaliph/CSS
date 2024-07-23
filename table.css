@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    text-align: center;
+    border: 2px solid;
+    height: 150px;
+    border-collapse: collapse;
+}
+table, th,td{
+    border: 2px solid;
+}
+td{
+    text-align: right;
+}
+th{
+    text-align: left;
+}
+td{
+    vertical-align: bottom;
+}
+th{
+    height: 60px;
+}
