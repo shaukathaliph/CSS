@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.relative{
+        position: relative;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    div.topleft{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        color: rgb(8, 221, 221);
+    }
+    div.topright{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 16px;
+        color: rgb(8, 221, 221);
+    }
+    div.leftbottom{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 16px;
+        color: rgb(8, 221, 221);
+    }
+    div.rightbottom{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+color: rgb(8, 221, 221);
+    }
+    div.center{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: rgb(8, 221, 221);
+    }
+</style>
+<body>
+    <div class="relative">
+        <img src="images/robot.jpeg" alt="">
+        <div class="topleft">topleft</div>
+        <div class="topright">topright</div>
+        <div class="center">center</div>
+        <div class="leftbottom">leftbottom</div>
+        <div class="rightbottom">rightbottom</div>
+    </div>
+    
+</body>
+</html>

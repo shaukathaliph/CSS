@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: 2px solid blue ;
+            border-radius: 10px; 
+            background-color:skyblue;
+            color: rgb(8, 8, 8);
+        }
+        input[type=text]:focus{
+            background-color: tomato;
+            color: azure;
+        }
+        div{
+            background-color: grey;
+            width: 70%;
+        }
+        select{
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid blue;
+            border-radius: 10px;
+            background-color: skyblue;
+        }
+        input[type=submit]{
+            background-color: aqua;
+            border: none;
+            color: rgb(3, 3, 3);
+            padding: 16px 20px;
+            decoration:none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" name="" placeholder="Enter your name" required>
+        <label for="country">Country</label>
+        <select name="" id="">
+            <option value="">ind</option>
+            <option value="">aus</option>
+        </select>
+        <input type="text" name="search" placeholder="search">
+        <input type="submit" value="submit">
+    </form>
+   </div>
+</body>
+</html>

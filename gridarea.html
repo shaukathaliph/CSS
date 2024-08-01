@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            grid-area: head;
+            background-color: aqua;
+        }
+        .nav{
+            grid-area: nav;
+            background-color: antiquewhite;
+            
+        }
+        .nav a{
+        text-decoration: none;
+        padding: 20px;
+        }
+        .nav li{
+           display: block;
+           float: left;
+            padding: 18px 
+        }
+        .menu{
+            grid-area: menu;
+            background-color: yellow;
+        }
+        .img{
+            grid-area: img;
+            background-color: coral;
+        }
+        .msg{
+            grid-area:msg;
+            background-color: tomato;
+        }
+        .btn{
+            grid-area: btn;
+            background-color: chocolate;
+        }
+        .main{
+           
+            display: grid;
+            grid-template-rows: 75px 520px 100px 65px;
+            grid-template-areas:
+            'head head head head nav nav nav'
+            'menu menu menu menu img img img'
+            'msg msg msg msg img img img'
+            'btn btn btn btn img img img'
+        }
+        h1,h2,h3{
+            text-align: center;
+        }
+        .imgs{
+            width: 800px;
+            height:500px ;
+        }
+        .btn{
+            grid-area: btn;
+            background-color: darkgray;
+            display: flex;
+            position: relative;
+        }
+        .readmore{
+            position: absolute;
+            background-color: greenyellow;
+            color: black;
+            width: 50%;
+            height: 100%;
+        }
+        .viewall{
+            position: absolute;
+            background-color:yellowgreen;
+            height: 65px;
+            color: black;
+            left: 50%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head"><h1>WEB DIARY</h1></div>
+        <div class="nav">
+            <ul>
+           <li> <a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </div>
+        <div class="menu">
+            <h2>CSS GRID EXAMPLES</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque ipsam nisi provident, illum magni error ab. In at repellendus ratione? Animi itaque id fugiat? Aliquid impedit temporibus laudantium nesciunt!</p>
+        </div>
+        <div class="img"><img class="imgs" src="images/download.jpeg" alt=""></div>
+        <div class="msg">
+            <h2>"Lorem ipsum dolor sit amet"</h2>
+        </div>
+        <div class="btn">
+            <div class="readmore"><h3>Read More</h3></div>
+            <div class="viewall"><h3>View All</h3></div>
+        </div>
+
+    </div>
+</body>
+</html>
